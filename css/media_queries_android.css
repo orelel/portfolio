@@ -1,0 +1,302 @@
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+	.navbar{
+		height:auto;
+	}
+	.navbar ul li{
+		float:none;
+		text-align:center;
+		padding:10px;
+	}
+	.close_navbar{
+		display:block !important;
+	}
+	h2,li{
+		font-size:4em
+	}
+	p{
+		font-size:3em
+	}
+}

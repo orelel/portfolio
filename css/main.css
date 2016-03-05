@@ -1,0 +1,241 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color:#F0F1F6;
+}
+section,figure{
+	width: 100%;
+	margin:0;
+	padding:0;
+	position: relative;
+}
+
+h2{
+	font-size:3em;
+	font-family: 'Lobster', serif;	
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.main-figure{
+	width:100%;
+	height:100%;
+	background-image: url("../img/orel-main.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar{
+	height:55px;
+	background-color: #D5EBCD;
+	position:fixed;
+	width: 100%;
+	z-index:22;
+	padding: 0;
+    margin: 0;
+	top:0;
+}
+.section_header{
+	position:relative;
+	top:55px;
+	text-align: center;
+	height:10%;
+}
+.section_header_content{
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:#FFFFC2;
+}
+
+.center_content{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.main_content{
+    height:100%;
+    opacity: 0.8;    
+	display: table;
+	width: 100%;	
+}
+.welcome_text{
+	text-align: center;
+	font-size: 6em;
+	font-weight: bold;
+	font-family: 'Tangerine', serif; 
+    text-shadow: 4px 4px 4px #aaa;
+	background-color: white;
+}
+.close_navbar{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+	display:none !important;
+}
+.open_navbar{
+	position: fixed;
+	left:2px;
+	top:0;
+	display:none;
+	z-index: 22;
+}
+ul{
+	list-style-type: none;
+	height: 100%;
+    margin: 0;
+    line-height: 55px;
+    padding: 0;
+}
+li{
+	float: left;
+    padding: 0 20px;
+	font-size: 2em;
+	cursor:pointer;
+	font-family: 'Luckiest Guy', serif;
+}
+.section_header_content ul{
+	display:inline-flex;
+}
+.section_header_content ul li:first-child{
+	padding: 0 40px;	
+}
+li.section_header_text:hover{
+	color:black;
+}
+@-webkit-keyframes shake {
+  from, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+li:hover{	
+	color:#FFFFC2;
+}
+li.active{
+	color:white;
+}
+.header_img{
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	width:15%;
+	background-position: 50% 50%;
+	height:100%;
+}
+.power{
+	background-image: url("../img/power.png");	
+}
+.blog{
+	background-image: url("../img/blog.png");	
+}
+.contact{
+	background-image: url("../img/contact.png");	
+}
+.facebook{
+	background-image: url("../img/facebook.png");
+	width: 30% !important;
+	background-position: 0 0 !important;
+}
+.linkedin{
+	background-image: url("../img/linkedin.png");
+	width: 30% !important;
+	background-position: 0 0 !important;
+}
+.email{
+	background-image: url("../img/email.png");
+	width: 30% !important;
+	background-position: 0 0 !important;
+}
+.menu{
+	background-image: url("../img/menu.png");
+	height: 20px !important;
+	width: 20px !important;
+}
+.close{
+	background-image: url("../img/close.png");
+	height: 20px !important;
+    width: 20px !important;
+}
+.section_header_title{
+	display: inline-block;
+	width:10%;
+	height:100%;
+}
+.section_header_title > div {
+	position : absolute;
+	top:50%;
+	-webkit-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	transform: translate(0,-50%);
+}
+.row{
+	height:30%;
+	width:100%;	
+	padding: 10px 0;	
+}
+.left{
+	width:30%;
+	height:100%;
+	float:left;
+}
+.description{
+	width:70%;
+	text-align:left;
+}
+.section_content{
+	height:90%;
+	position: relative;
+	top:55px;
+	padding: 0;
+    margin: 0;
+}
+u{
+	font-family: 'Lobster', serif;
+}
+p{
+    word-break: break-word;
+	font-size:2em;
+	padding: 0;
+    margin: 0;
+	font-family: 'Playball', serif;
+	padding: 0 25px;
+}
+button{
+	font-size:2em;
+	height: 40%;
+    width: 40%;
+    background-color: #D5EBCD;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+	-moz-box-shadow: 5px 5px 5px 0;
+	-webkit-box-shadow: 5px 5px 5px 0;
+    box-shadow: 5px 5px 5px 0;
+	font-family: 'Playball', serif;
+}
+a{
+	text-decoration: underline;
+    background-color: #D5EBCD;
+    color: black;
+    cursor: pointer;	
+}
